@@ -80,9 +80,9 @@ See the [Node.js Request README][req] for several more examples. Request intends
 
 Browser Request is a [browserify][browserify]-enabled package.
 
-First, add `browser-request` to your Node project
+This project is not on npm.org. You can still install it via npm:
 
-    $ npm install browser-request
+    $ npm install git+https://github.com/invokemedia/browser-request.git
 
 Next, make a module that uses the package.
 

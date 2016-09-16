@@ -5,10 +5,12 @@
     "name": "Jason Smith",
     "email": "jhs@iriscouch.com"
   },
-  "contributors": [{
-    "name": "James Doyle",
-    "email": "james.doyle@invokemedia.com"
-  }],
+  "contributors": [
+    {
+      "name": "James Doyle",
+      "email": "james.doyle@invokemedia.com"
+    }
+  ],
   "description": "Browser port of the Node.js 'request' package",
   "license": "Apache 2.0",
   "keywords": [
@@ -27,6 +29,7 @@
     "build": "browserify index.js -o browser-request.js"
   },
   "devDependencies": {
+    "browserify": "^13.1.0",
     "tape": "~4.6.*",
     "tape-run": "^2.1.4"
   },
